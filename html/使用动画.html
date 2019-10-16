@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        .class1{
+            width:20px;
+            height:20px;
+            background-color:aliceblue;
+        }
+        p:hover{
+            -moz-animation-delay:500ms;
+            -moz-animation-direction:alternate;
+            -moz-animation-duration:2s;
+            -moz-animation-name:demo;
+            -moz-animation-iteration-count:4;
+        }
+        @keyframes demo{
+            from{
+                width:20px;
+                height:20px;
+            }
+            50%{width:60px;
+                height:60px;
+
+            }
+            75%{width:100px;
+                height:100px;
+
+            }
+            to{
+                 width:120px;
+                height:120px;
+                background-color:burlywood;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="class1"></p>
+</body>
+</html>

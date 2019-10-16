@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+            //没有s的是获取单个对象
+            document.getElementById("div1").style.backgroundColor = "red";
+            //使用getElementByTag获取多个对象
+            var divArr = document.getElementsByTagName("div");
+            for (let i = 0; i < divArr.length; i++) {
+                divArr[i].style.backgroundColor = i % 2 == 0 ? "red" : "blue";
+            }
+        }
+    </script>
+</head>
+   
+<body>
+    <div id="div1">123</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div><div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+    <div>xxx</div>
+
+
+
+</body>
+</html>

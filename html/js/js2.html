@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DOM</title>
+</head>
+<body>
+    <!--<div id="div1">xxx</div>-->
+
+    <!--<img src="../../img/eg_merglobe.gif" alt="" id="img1" />-->
+ 
+    <!--<button  id="btn1">点击换图片</button>-->
+    <a href="http://www.baidu.com" id="a">baidu</a>
+    <script>
+        //console.log(document.getElementById("div1"));
+        //document.getElementById("img1").onclick = changeImage;
+        //function changeImage() {
+        //    //这里this代表的是事件源
+        //    console.log(this);
+        //    this.src = "../../img/eg_sun.gif";
+        //}
+
+        //innerText 获取标签中间文本
+        document.getElementById("a").onclick = function () {
+            this.href = "http://www.cnblogs.com";
+            this.innerText = "博客园";
+            //中止触发
+            return false;
+        }
+    </script>
+</body>
+</html>

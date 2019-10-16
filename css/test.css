@@ -1,0 +1,22 @@
+﻿#text-green{
+    color:green;
+}
+pp{
+    color:red;
+}
+.text-yellow{
+    color:yellow;
+}
+p em{
+    color:red;
+}
+h1,h2,h3,h4,h5,h6{
+    background-color:chocolate;
+    font-size:xx-small;
+}
+a:active{
+    text-decoration:none;
+}
+a:hover{
+    font-size:xx-large;
+}
